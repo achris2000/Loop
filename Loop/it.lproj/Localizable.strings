@@ -1,7 +1,8 @@
-/* Created with Localizable Strings Merge, the swiss-army knife for iOS and OS X localization. */
-
 /* The string format appended to active insulin that describes pending insulin. (1: pending insulin) */
-" (pending: %@)" = " (prevista l'erogazione di: %@)";
+" (pending: %@)" = " (somministrando: %@)";
+
+/* Low Target high Target */
+" LowTarget: %1$@ HighTarget: %2$@ Duration: %3$@" = "Obiettivo inferiore: %1$@ Obiettivo maggiore: %2$@ Durata: %3$@";
 
 /* Format string for carb ratio average. (1: value)(2: carb unit)
    Format string for insulin sensitivity average (1: value)(2: glucose unit) */
@@ -27,6 +28,15 @@
 
 /* Format string describing glucose units per minute (1: glucose unit string) */
 "%1$@/min" = "%1$@/min";
+
+/* Format string describing disabled retrospective correction. */
+"⚠️ Retrospective correction is disabled" = "⚠️ La correzione retrospettiva è disattivata";
+
+/* Title of the switch which toggles integral retrospective correction effects */
+"Integral Retrospective Correction" = "Correzione retrospettiva con metodo integrale";
+
+/* Format string describing retrospective glucose prediction comparison. (1: Previous glucose)(2: Predicted glucose)(3: Actual glucose) */
+"Last 30 min comparison: %1$@ → %2$@ vs %3$@" = "Comparativa rispetto agli ultimi 30 minuti: %1$@ → %2$@ vs %3$@";
 
 /* Formats (1: carb value) and (2: food type) */
 "%1$@: %2$@" = "%1$@: %2$@";
@@ -259,6 +269,27 @@
 /* Format string describing retrospective glucose prediction comparison. (1: Previous glucose)(2: Predicted glucose)(3: Actual glucose) */
 "Last comparison: %1$@ → %2$@ vs %3$@" = "Ultimo confronto: %1$@ → %2$@ vs %3$@";
 
+/* The description of the switch which toggles retrospective correction effects */
+"More agressively increase or decrease basal delivery when  glucose movement over past 30 min doesn't match the carbohydrate and insulin-based model." = "Riduce o aumenta con maggiore aggressività la somministrazione della basale quando la variazione della glicemia negli ultimi 30 minuti non rispecchia I carboidrati assunti o il modello insulinico.";
+
+/* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
+"QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
+
+/* Format string describing retrospective correction. (1: Current discrepancy)(2: Integral retrospective correction effect)(3: Total retrospective correction effect) */
+"RC effect: %1$@, Integral effect: %2$@\nTotal glucose effect: %3$@" = "Effetto RC: %1$@, Effetto basato su integrale: %2$@\n Effetto glicemico totale: %3$@";
+
+/* The notification title for a remote temp being canceled */
+"Remote Temporary Target Canceled " = "L’obiettivo glicemico impostato da remoto è stato cancellato";
+
+/* The notification title for Remote Target Being Set */
+"Remote Temporary Target Set " = "L’obiettivo glicemico impostato da remoto è stato inserito ";
+
+/* The description of the switch which toggles integral retrospective correction effects */
+"Respond more aggressively to persistent discrepancies in glucose movement." = "Risponde con maggiore aggressività a persistenti discrepanze nell’andamento glicemico.";
+
+/* Format string describing inactive retrospective correction. */
+"Temporarily inactive due to recent calibration or missing data" = "Temporaneamente inattivo per recente calibrazione o dati glicemici ";
+
 /* Glucose HUD accessibility hint */
 "Launches CGM app" = "Avvia CGM app";
 
@@ -434,7 +465,7 @@
 "Verifying" = "Sto verificando";
 
 /* Title of insulin model setting */
-"Walsh" = "Walsh"; 
+"Walsh" = "Walsh";
 
 /* Explanation of suspend threshold */
 "When current or forecasted glucose is below the suspend threshold, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour." = "Quando l'attuale valore glicemico o un valore previsto nel futuro e' al di sotto del valore minimo previsto per la sospensione dell'erogazione, Loop non consigliera' un bolo e blocchera' l'erogazione delle basali.";
