@@ -279,16 +279,16 @@
 "RC effect: %1$@, Integral effect: %2$@\nTotal glucose effect: %3$@" = "Effetto RC: %1$@, Effetto basato su integrale: %2$@\n Effetto glicemico totale: %3$@";
 
 /* The notification title for a remote temp being canceled */
-"Remote Temporary Target Canceled " = "L’obiettivo glicemico impostato da remoto è stato cancellato";
+"Remote Temporary Target Canceled " = "L'obiettivo glicemico impostato da remoto è stato cancellato.";
 
 /* The notification title for Remote Target Being Set */
-"Remote Temporary Target Set " = "L’obiettivo glicemico impostato da remoto è stato inserito ";
+"Remote Temporary Target Set " = "L'obiettivo glicemico impostato da remoto è stato inserito.";
 
 /* The description of the switch which toggles integral retrospective correction effects */
-"Respond more aggressively to persistent discrepancies in glucose movement." = "Risponde con maggiore aggressività a persistenti discrepanze nell’andamento glicemico.";
+"Respond more aggressively to persistent discrepancies in glucose movement." = "Risponde con maggiore aggressività a persistenti discrepanze nell'andamento glicemico.";
 
 /* Format string describing inactive retrospective correction. */
-"Temporarily inactive due to recent calibration or missing data" = "Temporaneamente inattivo per recente calibrazione o dati glicemici ";
+"Temporarily inactive due to recent calibration or missing data" = "Temporaneamente inattivo per recente calibrazione o dati glicemici.";
 
 /* Glucose HUD accessibility hint */
 "Launches CGM app" = "Avvia CGM app";
